@@ -21,7 +21,7 @@ const AddReview = () => {
         }
         console.log(review)
         // send data backend
-        fetch('http://localhost:5000/review', {
+        fetch('https://quiet-reef-68495.herokuapp.com/review', {
             method: "POST",
             headers: {
                 'content-type': 'application/json',

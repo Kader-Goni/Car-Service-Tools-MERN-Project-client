@@ -11,7 +11,7 @@ const Parches = () => {
     const {id} = useParams()
     const [user, loading] = useAuthState(auth);
     console.log(id)
-    const {data: product, isLoading, refetch} = useQuery(['product', id], () => fetch(`http://localhost:5000/product/${id}`, {
+    const {data: product, isLoading, refetch} = useQuery(['product', id], () => fetch(`https://quiet-reef-68495.herokuapp.com/product/${id}`, {
         headers: {
             'authorization': `Bearer ${localStorage.getItem('accessToken')}`
         }

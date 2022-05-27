@@ -11,7 +11,7 @@ const stripePromise = loadStripe('pk_test_51L3DuIHQQHfOxtfiNeFDaZOonaXzuLzVOQKnB
 
 const Payment = () => {
     const {id} = useParams()
-    const {data: payProduct, isLoading, refetch} = useQuery(['payProduct', id], () => fetch(`http://localhost:5000/payProduct/${id}`, {
+    const {data: payProduct, isLoading, refetch} = useQuery(['payProduct', id], () => fetch(`https://quiet-reef-68495.herokuapp.com/payProduct/${id}`, {
         headers: {
             'authorization': `Bearer ${localStorage.getItem('accessToken')}`
         }

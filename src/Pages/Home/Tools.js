@@ -4,7 +4,7 @@ import Loading from '../Shared/Loading';
 import { useQuery } from 'react-query';
 
 const Tools = () => {
-    const {data: products, isLoading, refetch} = useQuery('product', () => fetch('http://localhost:5000/product', {
+    const {data: products, isLoading, refetch} = useQuery('product', () => fetch('https://quiet-reef-68495.herokuapp.com/product', {
         headers: {
             'authorization': `Bearer ${localStorage.getItem('accessToken')}`
         }

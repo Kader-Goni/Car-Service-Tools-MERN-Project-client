@@ -32,7 +32,7 @@ const AddProduct = () => {
                 }
                 console.log(product)
                 // send data backend
-                fetch('http://localhost:5000/product', {
+                fetch('https://quiet-reef-68495.herokuapp.com/product', {
                     method: "POST",
                     headers: {
                         'content-type': 'application/json',

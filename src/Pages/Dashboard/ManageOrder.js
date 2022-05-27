@@ -6,7 +6,7 @@ import Loading from '../Shared/Loading';
 import MangeOrderRow from './MangeOrderRow'
 
 const ManageOrder = () => {
-    const {data: orders, isLoading, refetch} = useQuery('order', () => fetch('http://localhost:5000/order', {
+    const {data: orders, isLoading, refetch} = useQuery('order', () => fetch('https://quiet-reef-68495.herokuapp.com/order', {
         headers: {
             'authorization': `Bearer ${localStorage.getItem('accessToken')}`
         }

@@ -10,7 +10,7 @@ const MyOrders = () => {
     const [user, loading] = useAuthState(auth)
     const [deletingModal, setDeletingModal] = useState(null)
     const email = user.email
-    const {data: orders, isLoading, refetch} = useQuery(['product', email], () => fetch(`http://localhost:5000/myOrder?email=${email}`, {
+    const {data: orders, isLoading, refetch} = useQuery(['product', email], () => fetch(`https://quiet-reef-68495.herokuapp.com/myOrder?email=${email}`, {
         headers: {
             'authorization': `Bearer ${localStorage.getItem('accessToken')}`
         }

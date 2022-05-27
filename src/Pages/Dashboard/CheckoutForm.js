@@ -17,7 +17,7 @@ const CheckoutForm = ({payProduct}) => {
 
     useEffect(() => {
         
-        fetch("http://localhost:5000/create-payment-intent", {
+        fetch("https://quiet-reef-68495.herokuapp.com/create-payment-intent", {
           method: "POST",
           headers: { 
             "Content-Type": "application/json",
@@ -84,7 +84,7 @@ const CheckoutForm = ({payProduct}) => {
               productName: productName
             }
 
-            fetch(`http://localhost:5000/order/${_id}`, {
+            fetch(`https://quiet-reef-68495.herokuapp.com/order/${_id}`, {
               method: "PATCH",
               headers: { 
                 "Content-Type": "application/json",
