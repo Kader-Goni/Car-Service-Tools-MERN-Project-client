@@ -1,0 +1,85 @@
+[
+  {
+    "name": "Screwdriver Set",
+    "price": "147",
+    "description": "Do we really need to talk about how important screwdrivers are? Be sure you have all of the various types—including flat head, Phillips head, Allen head",
+    "max_quantity": "230",
+    "min_quantity": "100",
+    "img": "https://i.ibb.co/CKNhxWt/aments-products-image-3.jpg"
+  },
+  {
+    "name": "Punches and chisels",
+    "price": "247",
+    "description": "Punches and chisels serve a multitude of uses when working on cars. It’s a good idea to keep a variety of shapes and sizes available whenever you’re in the garage.",
+    "max_quantity": "277",
+    "min_quantity": "40",
+    "img": "https://i.ibb.co/9vV3fbY/aments-categories-02.jpg"
+  },
+  {
+    "name": "Impact wrench",
+    "price": "320",
+    "description": "These days, a variety of different types of impact wrenches are available. You can get either a pneumatic or cordless design in an array",
+    "max_quantity": "264",
+    "min_quantity": "80",
+    "img": "https://i.ibb.co/HK5zS2x/aments-categories-06.jpg"
+  },
+
+  {
+    "name": "Oil filter wrench",
+    "price": "122",
+    "description": "An oil and filter change is a fundamental automotive repair task that nearly every DIYer tackles. But unless you’re super strong, ",
+    "max_quantity": "230",
+    "min_quantity": "100",
+    "img": "https://i.ibb.co/xhrkX3J/aments-products-image-7.jpg"
+  },
+  {
+    "name": "Breaker bar",
+    "price": "178",
+    "description": "If you’re like most people, sometimes you need a little extra help breaking loose stubborn nuts and bolts. A breaker bar gives you that advantage by providing extra leverage.",
+    "max_quantity": "133",
+    "min_quantity": "200",
+    "img": "https://i.ibb.co/ZYmQ731/aments-categories-04.jpg"
+  },
+
+  {
+    "name": "Trie presur G",
+    "price": "155",
+    "description": "Tire pressure affects several aspects of vehicle performance, including handling",
+    "max_quantity": "300",
+    "min_quantity": "100",
+    "img": "https://i.ibb.co/kKkbnr3/parts-3.jpg"
+  },
+  {
+    "name": "Lainer piston ",
+    "price": "177",
+    "description": "Product description generators come in all shapes and sizes. However, some are far better than others. Here are the best ones to try in your eCommerce store today.",
+    "max_quantity": "299",
+    "min_quantity": "80",
+    "img": "https://i.ibb.co/1K1wFjc/parts-14.jpg"
+  },
+  {
+    "name": "Tire pressure gauge",
+    "price": "122",
+    "description": "Tire pressure affects several aspects of vehicle performance, including handling, braking ability, and fuel mileage",
+    "max_quantity": "186",
+    "min_quantity": "50",
+    "img": "https://i.ibb.co/pznbYWR/aments-categories-05.jpg"
+  },
+  {
+    "name": "Tire pressure gauge",
+    "price": "199",
+    "description": "Tire pressure affects several aspects of vehicle performance, including handling, braking ability, and fuel mileage.",
+    "max_quantity": "365",
+    "min_quantity": "120",
+    "img": "https://i.ibb.co/LgWLb3V/aments-categories-08.jpg"
+  },
+  {
+    "name": "Punches and chisels",
+    "price": "199",
+    "description": "Punches and chisels serve a multitude of uses when working on cars. It’s a good idea to keep a variety of shapes and sizes available whenever you’re in the garage.",
+    "max_quantity": "299",
+    "min_quantity": "50",
+    "img": "https://i.ibb.co/Px8m3pN/aments-products-image-5.jpg"
+  }
+  
+]
